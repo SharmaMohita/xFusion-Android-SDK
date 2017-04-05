@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#c0392b">
+
+    <android.support.v7.widget.CardView
+        android:layout_gravity="bottom"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="30dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        app:cardElevation="6dp"
+        card_view:cardBackgroundColor="@android:color/white">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="461dp"
+            android:orientation="vertical"
+            android:weightSum="4">
+
+            <LinearLayout
+                android:layout_marginTop="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_weight="0.15">
+
+                <TextView
+                    android:id="@+id/text_title"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginLeft="20dp"
+                    android:text="REGISTRATION"
+                    android:textColor="#c0392b"
+                    android:textSize="26sp"
+                    android:textStyle="bold"
+                    android:layout_weight="1" />
+
+                <View
+                    android:layout_width="15dp"
+                    android:layout_height="50dp"
+                    android:layout_gravity="center_vertical"
+                    android:background="#FFF" />
+            </LinearLayout>
+
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"/>
+
+            <android.support.v7.widget.CardView
+                app:contentPadding="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+
+                android:layout_marginTop="51dp">
+
+                <android.support.v7.widget.AppCompatEditText
+                    android:id="@+id/ed_device_alias"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@null"
+                    android:hint="Device Alias"
+                    android:textColorHint="#c0392b"
+                    android:textSize="25dp"
+                    android:layout_weight="0.15" />
+            </android.support.v7.widget.CardView>
+            <android.support.v7.widget.CardView
+                app:contentPadding="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+              >
+                <android.support.v7.widget.AppCompatSpinner
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/Spinner_Country_List">
+
+                </android.support.v7.widget.AppCompatSpinner>
+            </android.support.v7.widget.CardView>
+
+
+
+            <android.support.v7.widget.CardView
+                app:contentPadding="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="50dp">
+                <android.support.v7.widget.AppCompatSpinner
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/Spinner_State_List">
+
+                </android.support.v7.widget.AppCompatSpinner>
+            </android.support.v7.widget.CardView>
+
+
+            <android.support.v7.widget.CardView
+                app:contentPadding="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="50dp">
+                <android.support.v7.widget.AppCompatSpinner
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/Spinner_Organization_List">
+
+                </android.support.v7.widget.AppCompatSpinner>
+            </android.support.v7.widget.CardView>
+
+
+            <android.support.v7.widget.CardView
+                app:contentPadding="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="50dp">
+                <android.support.v7.widget.AppCompatSpinner
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/Spinner_City_List">
+
+                </android.support.v7.widget.AppCompatSpinner>
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                android:id="@+id/but_submit"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginLeft="40dp"
+                android:clickable="true"
+                android:layout_marginRight="40dp"
+                android:layout_marginTop="30dp"
+                app:cardBackgroundColor="#c0392b"
+                app:cardElevation="4dp"
+                app:cardCornerRadius="3dp"
+                app:contentPadding="6dp">
+
+                <TextView
+                    android:text="SUBMIT"
+                    android:textColor="#FFF"
+                    android:textSize="20dp"
+                    android:textStyle="bold"
+                    android:gravity="center"
+                    android:id="@+id/txt_submit"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+            </android.support.v7.widget.CardView>
+
+
+        </LinearLayout>
+    </android.support.v7.widget.CardView>
+
+</FrameLayout>

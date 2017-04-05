@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/IoTMobileSdk-debug/IoTMobileSdk-debug.iml" filepath="$PROJECT_DIR$/IoTMobileSdk-debug/IoTMobileSdk-debug.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Xfusion_PlatformApp.iml" filepath="$PROJECT_DIR$/Xfusion_PlatformApp.iml" />
+      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/xfusionlibrary/xfusionlibrary.iml" filepath="$PROJECT_DIR$/xfusionlibrary/xfusionlibrary.iml" />
+    </modules>
+  </component>
+</project>

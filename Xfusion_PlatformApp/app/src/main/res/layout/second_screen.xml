@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/root"
+    >
+
+
+
+    <com.example.satku.xfusion_platformapp.BookView
+        android:layout_width="@dimen/dimen_120"
+        android:layout_height="@dimen/dimen_175"
+        android:id="@+id/center_box_second"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="@dimen/dimen_80"
+        android:layout_marginBottom="@dimen/dimen_50"/>
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/desc_text"
+        android:text="@string/second_desc"
+        android:textSize="14sp"
+        android:gravity="center"
+        android:paddingRight="8dp"
+        android:paddingLeft="8dp"
+        android:layout_marginLeft="@dimen/activity_horizontal_margin"
+        android:layout_marginRight="@dimen/activity_horizontal_margin"
+        android:textColor="@android:color/black"
+        android:layout_marginBottom="103dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/title_text"
+        android:text="@string/second_title"
+        android:textSize="@dimen/text_26"
+        android:textStyle="bold"
+        android:textColor="@android:color/black"
+        android:layout_marginBottom="29dp"
+        android:layout_above="@+id/desc_text"
+        android:layout_centerHorizontal="true" />
+
+    <com.example.satku.xfusion_platformapp.SunMoonView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/animation_view"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true" />
+
+</RelativeLayout>

@@ -1,0 +1,10 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".driver.SignpadActivity">
+    <item android:id="@+id/action_reset"
+        android:title="@string/action_reset"
+        app:showAsAction="always"
+        android:icon="@mipmap/ic_refresh_white_24dp"/>
+    </menu>
+

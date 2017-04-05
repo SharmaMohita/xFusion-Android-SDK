@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:card_view="http://schemas.android.com/tools"
+    android:id="@+id/layout_root"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="25dp"
+        android:layout_marginTop="81dp"
+        android:paddingLeft="10dp"
+        android:text="Login"
+        android:textColor="#c0392b"
+        android:textSize="40dp" />
+
+    <EditText
+        android:id="@+id/editText_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/but_login"
+        android:layout_below="@+id/textView"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginTop="90dp"
+        android:drawableLeft="@drawable/envelop"
+        android:drawablePadding="14dp"
+        android:maxLines="1"
+        android:hint=" Enter your email id"
+        android:paddingBottom="15dp"
+        android:paddingRight="1dp"
+        android:textColorHint="@android:color/darker_gray"
+        android:textSize="17dp" />
+
+    <EditText
+        android:id="@+id/editText_password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView"
+        android:password="true"
+android:maxLines="1"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginTop="8dp"
+        android:drawableLeft="@drawable/lock"
+        android:drawablePadding="14dp"
+        android:hint=" Enter your password"
+        android:paddingBottom="15dp"
+        android:paddingRight="1dp"
+        android:textColorHint="@android:color/darker_gray"
+        android:textSize="17dp" />
+
+    <android.support.v7.widget.CardView
+        android:id="@+id/but_login"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginLeft="40dp"
+        android:clickable="true"
+        android:layout_marginRight="40dp"
+        android:layout_marginTop="30dp"
+        app:cardBackgroundColor="#c0392b"
+        app:cardElevation="4dp"
+        app:cardCornerRadius="3dp"
+        app:contentPadding="6dp">
+
+        <TextView
+            android:text="Login"
+            android:textColor="#FFF"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:id="@+id/txt_login"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+    </android.support.v7.widget.CardView>
+
+
+</LinearLayout>
